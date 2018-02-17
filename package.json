@@ -1,0 +1,24 @@
+{
+  "name": "slidey-boi",
+  "version": "1.0.0",
+  "description": "Another slider plugin",
+  "main": "./dist/slidey-boi.min.js",
+  "repository": "https://github.com/MichaelBunting/slidey-boi.git",
+  "author": "MichaelBunting <mikebunting1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0",
+    "webpack-notifier": "^1.5.1"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack --env.NODE_ENV=production"
+  }
+}
